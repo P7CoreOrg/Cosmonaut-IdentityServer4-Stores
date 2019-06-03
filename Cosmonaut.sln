@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmonaut", "src\Cosmonaut\Cosmonaut.csproj", "{70D43CE3-CCB1-41C4-AF30-EF67E29D87F9}"
 EndProject
@@ -28,6 +28,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmonaut.WebJobs.Extensions", "src\Cosmonaut.WebJobs.Extensions\Cosmonaut.WebJobs.Extensions.csproj", "{30FB4E88-D787-4133-9E56-5C51463BDEC0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmonaut.Shared", "samples\Cosmonaut.Shared\Cosmonaut.Shared.csproj", "{0819D70F-20C6-420C-8306-885B530E50E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitHelpers", "tests\XUnitHelpers\XUnitHelpers.csproj", "{BA5AFEDC-C317-42CF-A2BE-44D10A0C0FC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer4", "IdentityServer4", "{A36D699B-B689-4EA5-849A-5F0A5D36FC34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest_IdentityServer4.Contrib.Cosmonaut", "tests\XUnitTest_IdentityServer4.Contrib.Cosmonaut\XUnitTest_IdentityServer4.Contrib.Cosmonaut.csproj", "{5854C88E-CEAB-40E3-8F6B-E119A98A29EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.Contrib.Cosmonaut", "src\IdentityServer4.Contrib.Cosmonaut\IdentityServer4.Contrib.Cosmonaut.csproj", "{B1B79797-8F91-4DEF-851D-E4AF577431B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,18 @@ Global
 		{0819D70F-20C6-420C-8306-885B530E50E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0819D70F-20C6-420C-8306-885B530E50E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0819D70F-20C6-420C-8306-885B530E50E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5AFEDC-C317-42CF-A2BE-44D10A0C0FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5AFEDC-C317-42CF-A2BE-44D10A0C0FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5AFEDC-C317-42CF-A2BE-44D10A0C0FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5AFEDC-C317-42CF-A2BE-44D10A0C0FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5854C88E-CEAB-40E3-8F6B-E119A98A29EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5854C88E-CEAB-40E3-8F6B-E119A98A29EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5854C88E-CEAB-40E3-8F6B-E119A98A29EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5854C88E-CEAB-40E3-8F6B-E119A98A29EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B79797-8F91-4DEF-851D-E4AF577431B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B79797-8F91-4DEF-851D-E4AF577431B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B79797-8F91-4DEF-851D-E4AF577431B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B79797-8F91-4DEF-851D-E4AF577431B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +110,10 @@ Global
 		{FB4DCCD0-6E02-4481-863A-CEDCF225533C} = {E50F9511-8F2F-4753-8D4B-B0CAD4E5D573}
 		{30FB4E88-D787-4133-9E56-5C51463BDEC0} = {42392F64-A623-4C18-BF93-A5181AEE30C1}
 		{0819D70F-20C6-420C-8306-885B530E50E3} = {E50F9511-8F2F-4753-8D4B-B0CAD4E5D573}
+		{BA5AFEDC-C317-42CF-A2BE-44D10A0C0FC5} = {1900E4D6-A0A0-4675-A049-AA2843143E01}
+		{A36D699B-B689-4EA5-849A-5F0A5D36FC34} = {42392F64-A623-4C18-BF93-A5181AEE30C1}
+		{5854C88E-CEAB-40E3-8F6B-E119A98A29EF} = {1900E4D6-A0A0-4675-A049-AA2843143E01}
+		{B1B79797-8F91-4DEF-851D-E4AF577431B7} = {A36D699B-B689-4EA5-849A-5F0A5D36FC34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBCF8635-B781-4296-9756-2D461FD0AE27}

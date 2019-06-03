@@ -19,3 +19,6 @@ steps:
 - script: dotnet test tests\Cosmonaut.System
   displayName: 'Running integration tests'
   env: { 'CosmosDBEndpoint': "$(CosmosDbEmulator.Endpoint)" }
+- script: dotnet test tests\XUnitTest_IdentityServer4.Contrib.Cosmonaut
+  displayName: 'Running integration tests'
+  env: { 'CosmosDBEndpoint': "$(CosmosDbEmulator.Endpoint)" }
